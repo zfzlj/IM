@@ -9,10 +9,7 @@
 /* Begin PBXBuildFile section */
 		0440C7131C379A6B009E73BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0440C7121C379A6B009E73BF /* main.m */; };
 		0440C7161C379A6B009E73BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0440C7151C379A6B009E73BF /* AppDelegate.m */; };
-		0440C7191C379A6B009E73BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0440C7181C379A6B009E73BF /* ViewController.m */; };
-		0440C71C1C379A6B009E73BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0440C71A1C379A6B009E73BF /* Main.storyboard */; };
 		0440C71E1C379A6B009E73BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0440C71D1C379A6B009E73BF /* Assets.xcassets */; };
-		0440C7211C379A6B009E73BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0440C71F1C379A6B009E73BF /* LaunchScreen.storyboard */; };
 		0440C72C1C379A6C009E73BF /* IMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0440C72B1C379A6C009E73BF /* IMTests.m */; };
 		0440C7371C379A6C009E73BF /* IMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0440C7361C379A6C009E73BF /* IMUITests.m */; };
 		EEB8A477A68891D90B866A5B /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4794B70557EAE93F3B5C02E0 /* Pods.framework */; };
@@ -40,11 +37,7 @@
 		0440C7121C379A6B009E73BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0440C7141C379A6B009E73BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0440C7151C379A6B009E73BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0440C7171C379A6B009E73BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0440C7181C379A6B009E73BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0440C71B1C379A6B009E73BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0440C71D1C379A6B009E73BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0440C7201C379A6B009E73BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0440C7221C379A6B009E73BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0440C7271C379A6C009E73BF /* IMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0440C72B1C379A6C009E73BF /* IMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMTests.m; sourceTree = "<group>"; };
@@ -110,11 +103,7 @@
 			children = (
 				0440C7141C379A6B009E73BF /* AppDelegate.h */,
 				0440C7151C379A6B009E73BF /* AppDelegate.m */,
-				0440C7171C379A6B009E73BF /* ViewController.h */,
-				0440C7181C379A6B009E73BF /* ViewController.m */,
-				0440C71A1C379A6B009E73BF /* Main.storyboard */,
 				0440C71D1C379A6B009E73BF /* Assets.xcassets */,
-				0440C71F1C379A6B009E73BF /* LaunchScreen.storyboard */,
 				0440C7221C379A6B009E73BF /* Info.plist */,
 				0440C7111C379A6B009E73BF /* Supporting Files */,
 			);
@@ -270,9 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0440C7211C379A6B009E73BF /* LaunchScreen.storyboard in Resources */,
 				0440C71E1C379A6B009E73BF /* Assets.xcassets in Resources */,
-				0440C71C1C379A6B009E73BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +332,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0440C7191C379A6B009E73BF /* ViewController.m in Sources */,
 				0440C7161C379A6B009E73BF /* AppDelegate.m in Sources */,
 				0440C7131C379A6B009E73BF /* main.m in Sources */,
 			);
@@ -381,25 +367,6 @@
 			targetProxy = 0440C7331C379A6C009E73BF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		0440C71A1C379A6B009E73BF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0440C71B1C379A6B009E73BF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0440C71F1C379A6B009E73BF /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0440C7201C379A6B009E73BF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0440C7391C379A6C009E73BF /* Debug */ = {
@@ -489,10 +456,13 @@
 			baseConfigurationReference = 71CB8C5C7190C26F08AE9F4F /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = IM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.trans.zhaofei.IM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -501,10 +471,13 @@
 			baseConfigurationReference = BBD1EAD450F7A5EFF7EF5C6F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = IM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.trans.zhaofei.IM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
