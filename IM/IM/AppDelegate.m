@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "XMPPFramework.h"
+#import "LoginViewController.h"
 
 @interface AppDelegate ()
 
@@ -21,11 +22,12 @@
     
     self.window = [[UIWindow alloc] initWithFrame: [UIScreen mainScreen].bounds];
     
-    self.window.backgroundColor = [UIColor purpleColor];
-    
-    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[UIViewController alloc] init]];
+    UINavigationController *nav =  [[UINavigationController alloc] initWithRootViewController:[[LoginViewController alloc] init]];
+
+    self.window.rootViewController = nav;
     
     [self.window makeKeyAndVisible];
+
     return YES;
 }
 
